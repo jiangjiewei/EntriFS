@@ -1,0 +1,14 @@
+# Override via environment variables (see src/config.py)
+
+source_epochs: 15
+calib_epochs: 12
+calib_per_class: 10
+mc_dropout_t: 30
+batch_size: 32
+random_seed: 42
+
+paths:
+  ddr_root: data/ddr
+  aptos_labels: data/labels/aptos_train.csv
+  aptos_images: data/aptos/train_images
+  output_dir: outputs
